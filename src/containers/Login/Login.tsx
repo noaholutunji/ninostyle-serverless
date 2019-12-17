@@ -93,7 +93,4 @@ Login.propTypes = {
   login: PropTypes.func.isRequired
 };
 
-export default connect(
-  null,
-  { login }
-)(Login);
+export default connect(null, { login })(Login);

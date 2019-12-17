@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 10);
+/******/ 	return __webpack_require__(__webpack_require__.s = 3);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -130,7 +130,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_0__);
 
 const instance = axios__WEBPACK_IMPORTED_MODULE_0___default.a.create({
-  baseURL: 'https://wx9trbdeb8.execute-api.us-east-1.amazonaws.com/prod'
+  baseURL: 'https://fyrgwksfq7.execute-api.us-east-1.amazonaws.com/prod'
 });
 /* harmony default export */ __webpack_exports__["default"] = (instance);
 
@@ -231,7 +231,7 @@ const Home = props => {
     overlay: "black-slight"
   })), __jsx(mdbreact__WEBPACK_IMPORTED_MODULE_3__["MDBCarouselCaption"], null, __jsx("h3", {
     className: "h3-responsive"
-  }, "NinoStyle"), __jsx("p", null, "Excellence Customer Service")))))), __jsx(mdbreact__WEBPACK_IMPORTED_MODULE_3__["MDBContainer"], {
+  }, "NinoStyle"), __jsx("p", null, "Excellent Customer Service")))))), __jsx(mdbreact__WEBPACK_IMPORTED_MODULE_3__["MDBContainer"], {
     className: "mt-3 px-1 text-center"
   }, __jsx("h3", null, "Latest Products"), __jsx(mdbreact__WEBPACK_IMPORTED_MODULE_3__["MDBRow"], {
     className: "mt-3"
@@ -283,14 +283,14 @@ const TableImg = props => {
 
 /***/ }),
 
-/***/ 10:
+/***/ 3:
 /*!*******************************!*\
   !*** multi ./pages/index.tsx ***!
   \*******************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /home/noah/Desktop/ninostyle/pages/index.tsx */"./pages/index.tsx");
+module.exports = __webpack_require__(/*! /home/noah/codes/aws-course/project/ninostyle-app/pages/index.tsx */"./pages/index.tsx");
 
 
 /***/ }),

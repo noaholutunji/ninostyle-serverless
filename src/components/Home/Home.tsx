@@ -103,7 +103,7 @@ const Home = props => {
               </MDBView>
               <MDBCarouselCaption>
                 <h3 className="h3-responsive">NinoStyle</h3>
-                <p>Excellence Customer Service</p>
+                <p>Excellent Customer Service</p>
               </MDBCarouselCaption>
             </MDBCarouselItem>
           </MDBCarouselInner>

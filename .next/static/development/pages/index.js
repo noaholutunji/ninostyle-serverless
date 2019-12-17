@@ -13278,10 +13278,10 @@ var index = react__WEBPACK_IMPORTED_MODULE_0___default.a.createContext || create
 
 /***/ }),
 
-/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2Fhome%2Fnoah%2FDesktop%2Fninostyle%2Fpages%2Findex.tsx!./":
-/*!*********************************************************************************************************************************************************************!*\
-  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2Fhome%2Fnoah%2FDesktop%2Fninostyle%2Fpages%2Findex.tsx ***!
-  \*********************************************************************************************************************************************************************/
+/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2Fhome%2Fnoah%2Fcodes%2Faws-course%2Fproject%2Fninostyle-app%2Fpages%2Findex.tsx!./":
+/*!**********************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2Fhome%2Fnoah%2Fcodes%2Faws-course%2Fproject%2Fninostyle-app%2Fpages%2Findex.tsx ***!
+  \**********************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -23079,7 +23079,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_0__);
 
 var instance = axios__WEBPACK_IMPORTED_MODULE_0___default.a.create({
-  baseURL: 'https://wx9trbdeb8.execute-api.us-east-1.amazonaws.com/prod'
+  baseURL: 'https://fyrgwksfq7.execute-api.us-east-1.amazonaws.com/prod'
 });
 /* harmony default export */ __webpack_exports__["default"] = (instance);
 
@@ -23179,7 +23179,7 @@ var Home = function Home(props) {
     overlay: "black-slight"
   })), __jsx(mdbreact__WEBPACK_IMPORTED_MODULE_3__["MDBCarouselCaption"], null, __jsx("h3", {
     className: "h3-responsive"
-  }, "NinoStyle"), __jsx("p", null, "Excellence Customer Service")))))), __jsx(mdbreact__WEBPACK_IMPORTED_MODULE_3__["MDBContainer"], {
+  }, "NinoStyle"), __jsx("p", null, "Excellent Customer Service")))))), __jsx(mdbreact__WEBPACK_IMPORTED_MODULE_3__["MDBContainer"], {
     className: "mt-3 px-1 text-center"
   }, __jsx("h3", null, "Latest Products"), __jsx(mdbreact__WEBPACK_IMPORTED_MODULE_3__["MDBRow"], {
     className: "mt-3"
@@ -23239,14 +23239,14 @@ var TableImg = function TableImg(props) {
 
 /***/ }),
 
-/***/ 10:
-/*!*************************************************************************************************************************!*\
-  !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2Fhome%2Fnoah%2FDesktop%2Fninostyle%2Fpages%2Findex.tsx ***!
-  \*************************************************************************************************************************/
+/***/ 3:
+/*!**************************************************************************************************************************************************!*\
+  !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2Fhome%2Fnoah%2Fcodes%2Faws-course%2Fproject%2Fninostyle-app%2Fpages%2Findex.tsx ***!
+  \**************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2F&absolutePagePath=%2Fhome%2Fnoah%2FDesktop%2Fninostyle%2Fpages%2Findex.tsx! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2Fhome%2Fnoah%2FDesktop%2Fninostyle%2Fpages%2Findex.tsx!./");
+module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2F&absolutePagePath=%2Fhome%2Fnoah%2Fcodes%2Faws-course%2Fproject%2Fninostyle-app%2Fpages%2Findex.tsx! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2Fhome%2Fnoah%2Fcodes%2Faws-course%2Fproject%2Fninostyle-app%2Fpages%2Findex.tsx!./");
 
 
 /***/ }),
@@ -23262,5 +23262,5 @@ module.exports = dll_6b5a3ee2368b61971f52;
 
 /***/ })
 
-},[[10,"static/runtime/webpack.js"]]]);
+},[[3,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=index.js.map
