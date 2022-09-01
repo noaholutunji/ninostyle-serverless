@@ -34,14 +34,8 @@ const Body = (props: IntProps) => {
     alert('Item added to cart!');
   };
   return (
-    <MDBCol className="col-sm-12 col-lg-3 col-md-4 pb-1">
-      <MDBCard
-        className="mb-lg-0 my-4"
-        style={{ maxHeight: '34rem' }}
-        cascade
-        ecommerce
-        wide
-      >
+    <MDBCol sm="12" md="6" lg="3">
+      <MDBCard className="mb-lg-0 my-4" cascade ecommerce wide>
         <MDBCardImage cascade top alt="" src={props.obj.image} waves />
         <hr />
         <MDBCardBody cascade className="text-center">
@@ -62,7 +56,6 @@ const Body = (props: IntProps) => {
             <span className="float-left">
               Price: ₦{' '}
               {props.obj.price.toFixed(2).replace(/\d(?=(\d{3})+\.)/g, '$&,')}
-              {/* {props.obj.price} */}
             </span>
 
             <span className="float-right">
@@ -73,7 +66,7 @@ const Body = (props: IntProps) => {
                     handleClick(props.obj);
                   }}
                   size="lg"
-                  className="p-1 m-0 mr-2 z-depth-0"
+                  className="p-1 m-0  z-depth-0"
                 >
                   <MDBIcon icon="shopping-cart" />
                 </MDBBtn>
